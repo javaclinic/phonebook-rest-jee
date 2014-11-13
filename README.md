@@ -4,6 +4,7 @@ phonebook-rest
 - `com.javaclinic.phonebook.model.PhonebookEntry` JPA entity + JAXB binding
 - `com.javaclinic.phonebook.dao.PhonebookEntryDao` stateless session EJB (DAO)
 - `com.javaclinic.phonebook.rest.PhonebookEntryResource` stateless session EJB + JAX-RS Resource
+- `com.javaclinic.phonebook.rest.PhonebookApplication` JAX-RS activator.
 - `/WEB-INF/phonebook-ds.xml`
 - `META-INF/persistence.xml`
 
@@ -25,10 +26,5 @@ You can deploy/redeploy/undeploy directly to the local JBoss AS7/EAP6 instance:
 
 ToDo
 ----
-- Add PhonebookEntry resource.
-- CREATE entry.
-- GET entry by id.
-- GET ALL entries.
-- DELETE entry by id.
-- UPDATE entry by id.
+- Add documentation with example requests (GET/POST/PUT/DELETE)
 
